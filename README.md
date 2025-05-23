@@ -1,4 +1,4 @@
-# Anita Okojie-Aidonojie - Computational Linguist & Python Developer
+# Anita Okojie - Computational Linguist & Python Developer
 
 ## About Me
 I'm a Computational Linguistics student with a BA in Modern Languages & Linguistics from the University of Warwick. I'm multilingual (English, Spanish, French) with technical expertise in Python and modern NLP frameworks. My research interests focus on developing intelligent language solutions that bridge linguistics with technology.
