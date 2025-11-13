@@ -43,7 +43,7 @@ I am a driven Computational Linguist and Python Developer with a strong foundati
 *   **Online TED Translator (March 2024 – Present)**
     *   Volunteered to transcribe, translate, and edit subtitles for TED Talks using the CaptionHub platform, enhancing global accessibility of diverse content.
     *   Ensured high-quality linguistic output and adherence to subtitling standards, demonstrating strong attention to detail and cross-cultural communication skills.
-*   **Online Research for Coventry Council Translation (CITU) (January 2024 – March 2024)**
+*   **Researcher for Coventry Council Translation (CITU) (January 2024 – March 2024)**
     *   Conducted long-term research for Coventry Interpretation & Translation Unit (CITU) to explore technological solutions for increasing service efficiency in booking and delivery.
     *   Investigated applications of machine translation to identify opportunities for business improvement and streamline operational processes within the unit.
 *   **Internship • Comtec Translations • Leamington Spa, UK (March 2024)**
