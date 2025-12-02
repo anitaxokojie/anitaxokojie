@@ -33,12 +33,10 @@ The interesting part: optimized API calls and semantic similarity calculations t
 
 **Technologies:** Python, Google Gemini 1.5-flash API, NetworkX, scikit-learn, BM25
 
-### Multilingual Extractive Summarization
-Created a BERT-based extractive summarization system for 1,000+ TED Talk transcripts in English and Spanish. Achieved ROUGE-1 F1 of 0.3078 and BLEU-1 of 0.2281. Implemented language-specific preprocessing and domain-specific boosting, which led to a 40% speed improvement and 27% enhanced topic fidelity.
+### Multilingual Extractive Summarization (BERT & PageRank)
+Built a language-agnostic text summarization tool capable of processing English and Spanish TED Talks without translation, utilizing SentenceTransformers (BERT) for semantic embeddings and PageRank for sentence scoring. Optimized summary quality through hyperparameter tuning (identifying 3 sentences as the optimal length) and custom domain-boosting logic. Integrated LIME to visualize model decision boundaries and conducted a rigorous fairness audit, which revealed the model achieved higher semantic preservation on technical topics (0.40 similarity) compared to abstract social topics (0.29).
 
-Ran a fairness analysis and found some biases I wasn't expecting: the system showed bias towards technology content (+20.5% length) and underrepresentation of society-focused talks (-19% length). These findings informed my thinking about ethical AI development.
-
-**Technologies:** Python, Transformers, spaCy, PageRank, NLTK, LIME
+**Technologies:** Python, BERT, spaCy, PageRank, LIME, NLTK, Pandas.
 
 ### Fake News Detection with Hybrid ML
 Designed and implemented a hybrid ML system that combines transformer embeddings with linguistic analysis for fake news detection, achieving 94.03% accuracy. Engineered a comprehensive feature extraction pipeline including readability, sentiment, and lexical diversity metrics, plus novel fusion methods to optimally integrate these signals.
@@ -47,12 +45,9 @@ Built interpretability modules using LIME for transparent feature visualization,
 
 **Technologies:** Python, PyTorch, Transformers, VADER, scikit-learn, LIME
 
-### Big Data E-commerce Analytics
-Developed a distributed big data analytics solution using Apache Spark for 500,000+ e-commerce records across 7 tables, demonstrating horizontal scalability. Implemented customer segmentation via K-means clustering (identifying High-Value Loyal, High-Value Occasional, Low-Engagement segments) and an ALS collaborative filtering recommendation system achieving 0.82 RMSE.
-
-The analytics side identified Electronics as having the highest profit margin at 49.7% and pinpointed 27 high-selling products with critical inventory levels.
-
-**Technologies:** PySpark, MLlib, Hadoop, SQL, Alternating Least Squares
+### Big Data E-commerce Analytics & Customer Segmentation
+Developed a distributed analytics pipeline using Apache Spark (PySpark) to process over 2.4 million e-commerce events across 7 relational datasets. Engineered an ETL workflow handling schema enforcement and complex joins to unite user demographics with transactional history. Implemented K-Means clustering via Spark MLlib to segment the customer base into distinct behavioral cohorts (High, Mid, and Low Value) based on spending frequency and monetary value. Additionally, built a profitability engine that identified "Outerwear" and "Suits" as the highest-margin categories (~55%), providing data-driven insights for inventory prioritization.
+**Technologies:** PySpark, SparkSQL, MLlib, Python, Matplotlib, Seaborn.
 
 ## Professional Experience
 
