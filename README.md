@@ -47,6 +47,7 @@ Built interpretability modules using LIME for transparent feature visualization,
 
 ### Big Data E-commerce Analytics & Customer Segmentation
 Developed a distributed analytics pipeline using Apache Spark (PySpark) to process over 2.4 million e-commerce events across 7 relational datasets. Engineered an ETL workflow handling schema enforcement and complex joins to unite user demographics with transactional history. Implemented K-Means clustering via Spark MLlib to segment the customer base into distinct behavioral cohorts (High, Mid, and Low Value) based on spending frequency and monetary value. Additionally, built a profitability engine that identified "Outerwear" and "Suits" as the highest-margin categories (~55%), providing data-driven insights for inventory prioritization.
+
 **Technologies:** PySpark, SparkSQL, MLlib, Python, Matplotlib, Seaborn.
 
 ## Professional Experience
